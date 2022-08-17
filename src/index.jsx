@@ -6,6 +6,7 @@ import LatihanState from './LatihanState';
 import LifeCycleComponent from './LifeCycleComponent';
 import List from './List';
 import Form from './Form';
+import FetchingData from './FetchingData';
 
 
   
@@ -17,7 +18,8 @@ import Form from './Form';
       {/* <LatihanState /> */}
       {/* <LifeCycleComponent /> */}
       {/* <List /> */}
-      <Form />
+      {/* <Form /> */}
+      <FetchingData />
 
     </React.StrictMode>
     
