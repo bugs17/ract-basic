@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import LatihanState from './LatihanState';
 import LifeCycleComponent from './LifeCycleComponent';
+import List from './List';
+import Form from './Form';
 
 
   
@@ -13,10 +15,10 @@ import LifeCycleComponent from './LifeCycleComponent';
       <React.StrictMode>
       {/* <App /> */}
       {/* <LatihanState /> */}
-      
-        
-      <LifeCycleComponent />
-      
+      {/* <LifeCycleComponent /> */}
+      {/* <List /> */}
+      <Form />
+
     </React.StrictMode>
     
     

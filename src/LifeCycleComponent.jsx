@@ -26,6 +26,10 @@ const LifeCycleComponent = () => {
     // nah kalau kaya bgni berarti cuma perubahan di count saja yg di pantau jadi setiap ada perubahan di count maka funtion dalam useefect akan ikut di
     // panggil juga, sedangkan state diclick tidak dipantau lagi.. tong bisa juga masukan dua" dalam list array ni supaya dua" dipantau statenya
     // pas tiba" ada perubahan distate pas dirender domnya useeffect juga panggil funtion yg ada didalamnya..
+
+    // nah trus kalo kasih array kosong saja itu berarti funion hanya di panggil sekali saja pada saat pertama kali dirender 
+    // jadi ketika ada perubahan di state lagi de tidak akan di panggil lagi. jdi itu bedanya. pake array kosong dan ada isinya, atau tidak pake array sama skali
+    // biasanya array kosong di useefect ini di pake kalo mau fecthing data keserver. kan hanya ambil sekali saja to buat requestnya jadi pake array kosng bgni.
     },[diclick,])
  
 
