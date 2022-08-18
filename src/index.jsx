@@ -8,6 +8,7 @@ import LifeCycleComponent from './LifeCycleComponent';
 import List from './List';
 import Form from './Form';
 import FetchingData from './FetchingData';
+import TodoList from './TodoList';
 
 
   
@@ -20,7 +21,8 @@ import FetchingData from './FetchingData';
       {/* <LifeCycleComponent /> */}
       {/* <List /> */}
       {/* <Form /> */}
-      <FetchingData />
+      {/* <FetchingData /> */}
+      <TodoList />
 
     </React.StrictMode>
     
