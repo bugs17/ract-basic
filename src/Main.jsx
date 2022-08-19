@@ -7,6 +7,8 @@ import Home from './Home';
 const Main = () => {
     return (
         <>
+        {/* jadi cara penggunaan router kaya begini nanti tinggal import Routes, Route dan Link
+        dan pada halaman index bungkus halam ini dengan BrowseRouter, jadi dibandingkan pake tag <a> langsung saja pake Link dari react-router-dom */}
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
