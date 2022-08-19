@@ -1,11 +1,11 @@
-import React from 'react';
+import { useState } from 'react';
 
 const TodoList = () => {
 
-  const [todos, setTodos] = React.useState(''); // state awal dari inputan.. disni nanti yg mengontrol form input.
-  const [datas, setData] = React.useState([]); // disni empty array karna memang mau di tampung data yg di masukan dan di map di element li.
-  const [edit, setEdit] = React.useState({}); // disini empti object karna memang datanya berbentuk object ada id dan datanya.
-  const [cekTodos, setCekTodos] = React.useState('') // untuk memberikan pesan kalau form tidak boleh kosong
+  const [todos, setTodos] = useState(''); // state awal dari inputan.. disni nanti yg mengontrol form input.
+  const [datas, setData] = useState([]); // disni empty array karna memang mau di tampung data yg di masukan dan di map di element li.
+  const [edit, setEdit] = useState({}); // disini empti object karna memang datanya berbentuk object ada id dan datanya.
+  const [cekTodos, setCekTodos] = useState('') // untuk memberikan pesan kalau form tidak boleh kosong
   
   //ini untuk generate id karna datanya tidak memiliki unik id jdi tong pake milisecond jadi unik id
   const generateID = ()=>{
