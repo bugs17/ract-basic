@@ -8,6 +8,7 @@ import Form from './Form';
 import Blog from './Blog';
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
+import Login from './Login';
 
 const Main = () => {
     return (
@@ -30,6 +31,7 @@ const Main = () => {
                 {/* ini contoh dynamic url seperti meminta detail artikel product dan sebagainya */}
                 <Route path='blog/:slug' element={<BlogDetails/>}/>
                 <Route path='todolist' element={<TodoList/>}/>
+                <Route path='login' element={<Login/>}/>
                 <Route path='*' element={<NotFound/>}/>
             </Routes> 
         </div>
